@@ -1,3 +1,7 @@
+#### LINK to API
+
+https://cars-api-236.herokuapp.com/
+
 #### Setup
 
 ```bash
@@ -14,7 +18,7 @@ npm install && npm start
 #### Routers
 
 - auth.js
-- jobs.js
+- cars.js
 
 #### User Model
 
@@ -58,12 +62,12 @@ Email Validation Regex
 Swagger UI
 
 ```yaml
-/jobs/{id}:
+/Cars/{id}:
   parameters:
     - in: path
       name: id
       schema:
         type: string
       required: true
-      description: the job id
+      description: the car id
 ```
