@@ -1,8 +1,4 @@
-#### LINK to API
 
-https://cars-api-236.herokuapp.com/
-
-#### Setup
 
 ```bash
 npm install && npm start
